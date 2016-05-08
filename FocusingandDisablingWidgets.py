@@ -26,6 +26,6 @@ textEntered = ttk.Entry(win,
 
 textEntered.focus()  # Focuses on the textbox i.e. adds a blinking cursor to add focus
 
-textEntered.grid(column=0, row=2)
+textEntered.grid(column=0, row=1)
 
 win.mainloop()  # The event which makes the window appear on screen
